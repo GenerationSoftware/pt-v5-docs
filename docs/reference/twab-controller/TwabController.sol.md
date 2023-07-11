@@ -1,5 +1,5 @@
 # TwabController
-[Git Source](https://github.com/pooltogether/v5-twab-controller/blob/5ea608078f92284360b346fb5607a961437ae915/src/TwabController.sol)
+[Git Source](https://github.com/GenerationSoftware/pt-v5-twab-controller/blob/main/src/TwabController.sol)
 
 **Author:**
 PoolTogether Inc Team

@@ -1,5 +1,5 @@
 # Claimer
-[Git Source](https://github.com/pooltogether/v5-vrgda-claimer/blob/3fd23664804ec3ff606b6e616942b90f1e3527ea/src/Claimer.sol)
+[Git Source](https://github.com/GenerationSoftware/pt-v5-claimer/blob/main/src/Claimer.sol)
 
 
 ## State Variables

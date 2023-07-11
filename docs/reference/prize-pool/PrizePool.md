@@ -1,5 +1,5 @@
 # PrizePool
-[Git Source](https://github.com/pooltogether/v5-prize-pool/blob/aedeba0e089d9404c490a37f2f9e456fac901b56/src/PrizePool.sol)
+[Git Source](https://github.com/GenerationSoftware/pt-v5-prize-pool/blob/main/src/PrizePool.sol)
 
 
 ## State Variables

@@ -1,5 +1,5 @@
 # VaultFactory
-[Git Source](https://github.com/pooltogether/v5-prize-vault/blob/023805de5aa83af29487f2a21fa745c7bad2736e/src/VaultFactory.sol)
+[Git Source](https://github.com/GenerationSoftware/pt-v5-vault/blob/main/src/VaultFactory.sol)
 
 
 ## State Variables

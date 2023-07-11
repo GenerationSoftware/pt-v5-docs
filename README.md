@@ -1,4 +1,4 @@
-# PoolTogether V4 Docs
+# PoolTogether V5 Docs
 
 The documentation is built using [Docusaurus 2](https://v2.docusaurus.io/).
 
@@ -17,7 +17,7 @@ To update the testnet:
 
 # Contributing to PoolTogether Docs
 
-Contributing to the docs site is a great way to get involved in the dev community and help other devs along the way! Check out our guidelines [here](https://github.com/PoolTogether/v4-docs/blob/main/CONTRIBUTING.md).
+Contributing to the docs site is a great way to get involved in the dev community and help other devs along the way! Check out our guidelines [here](https://github.com/GenerationSoftware/pt-v5-docs/blob/main/CONTRIBUTING.md).
 
 # How to Update search indices with algolia
 

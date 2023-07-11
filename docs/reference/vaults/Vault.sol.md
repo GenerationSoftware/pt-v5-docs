@@ -1,5 +1,5 @@
 # Vault
-[Git Source](https://github.com/pooltogether/v5-prize-vault/blob/023805de5aa83af29487f2a21fa745c7bad2736e/src/Vault.sol)
+[Git Source](https://github.com/GenerationSoftware/pt-v5-vault/blob/main/src/Vault.sol)
 
 **Inherits:**
 ERC4626, ILiquidationSource, Ownable

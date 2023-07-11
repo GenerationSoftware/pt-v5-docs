@@ -4,13 +4,13 @@ const katex = require('rehype-katex');
 module.exports = {
   title: "PoolTogether",
   tagline: "Documentation and Guides",
-  url: "https://v4-docs.netlify.app",
+  url: "https://v5-docs.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "ignore",
   favicon: "img/favicon.png",
   organizationName: "PoolTogether", // Usually your GitHub org/user name.
-  projectName: "v4-docs", // Usually your repo name.
+  projectName: "v5-docs", // Usually your repo name.
   themeConfig: {
     image: "img/twitter_card_bg.jpg",
     prism: {
@@ -20,7 +20,7 @@ module.exports = {
     ...(process.env.NO_ALGOLIA ? {} : {
       algolia: {
         apiKey: process.env.SEARCH_API_KEY,
-        indexName: "v4_docs",
+        indexName: "v5_docs",
         appId: process.env.APPLICATION_ID,
       }
     }),
@@ -70,25 +70,25 @@ module.exports = {
         {
           title: "Developers",
           items: [
-            {
-              label: "Bug Bounty",
-              href: "https://github.com/pooltogether/pooltogether-pool-contracts/issues/1",
-            },
+            // {
+            //   label: "Bug Bounty",
+            //   href: "https://github.com/pooltogether/pooltogether-pool-contracts/issues/1",
+            // },
             {
               label: "#dev-chat",
-              href: "https://discord.gg/NVhqUj6v",
+              href: "https://pooltogether.com/discord",
             },
           ],
         },
-        {
-          title: "Github",
-          items: [
-            {
-              label: "pooltogether-v4",
-              href: "https://github.com/PoolTogether/pooltogether-contract-tsunami",
-            },
-          ],
-        },
+        // {
+        //   title: "Github",
+        //   items: [
+        //     {
+        //       label: "pooltogether-v5",
+        //       href: "https://github.com/GenerationSoftware/pooltogether-contract-tsunami",
+        //     },
+        //   ],
+        // },
         {
           title: "Ecosystem",
           items: [
@@ -96,13 +96,13 @@ module.exports = {
               label: "Home",
               href: "https://pooltogether.com/",
             },
-            {
-              label: "App",
-              href: "https://app.pooltogether.com/",
-            },
+            // {
+            //   label: "App",
+            //   href: "https://app.pooltogether.com/",
+            // },
             {
               label: "Brand Assets",
-              href: "https://github.com/pooltogether/pooltogether--brand-assets/blob/141936c859553a2a42ac96ed807551b85a4d56d9/pooltogether-brand-assets-v1.2.0.zip?raw=true",
+              href: "https://github.com/pooltogether/pooltogether--brand-assets/blob/master/pooltogether-brand-assets-v1.2.0.zip?raw=true",
             },
           ],
         },
@@ -115,7 +115,7 @@ module.exports = {
             },
             {
               label: "Discord",
-              href: "https://discord.gg/JBzfTu63",
+              href: "https://pooltogether.com/discord",
             },
             {
               label: "Twitter",
@@ -159,19 +159,10 @@ module.exports = {
         docs: {
           path: "docs",
           routeBasePath: "protocol/",
-          editUrl: "https://github.com/pooltogether/v4-docs/tree/main/",
-          // lastVersion: "current",
-          includeCurrentVersion: true,
-          versions: {
-            current: {
-              label: "V5"
-            }
-          },
+          editUrl: "https://github.com/generationsoftware/pt-v5-docs/tree/main/",
           remarkPlugins: [math],
           rehypePlugins: [katex],
-
         },
-
         theme: {
           customCss: require.resolve("./src/css/custom.css")
         },
