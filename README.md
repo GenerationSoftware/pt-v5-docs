@@ -15,7 +15,7 @@ To update the testnet:
 1. Copy the `contracts.json` file from [v5-testnet](https://github.com/pooltogether/v5-testnet) to `data/testnet-contracts.json`
 2. Run the script: `./scripts/generateV5TestnetDeployments.js`
 
-# Contributing to PoolTogether Docs
+# Contributing to PoolTogether V5 Docs
 
 Contributing to the docs site is a great way to get involved in the dev community and help other devs along the way! Check out our guidelines [here](https://github.com/GenerationSoftware/pt-v5-docs/blob/main/CONTRIBUTING.md).
 

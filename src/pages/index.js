@@ -27,17 +27,17 @@ export const actions = [
     text: `A brief explanation about what PoolTogether is. Governance, protocol, interface, inc.`,
   },
   {
-    title: "Architecture",
+    title: "Protocol Design",
     href: "#",
     icon: LightBulbIcon,
-    to: "./protocol/architecture/",
-    text: `Learn about the core concepts of the PoolTogether protocol. A prize savings network.`,
+    to: "./protocol/design/",
+    text: `Learn about the design concepts behind the V5 of the PoolTogether protocol.`,
   },
   {
     title: "Deployments",
     href: "#",
     icon: BookOpenIcon,
-    to: "./protocol/deployments/",
+    to: "./protocol/deployments/testnet",
     text: `Comprehensive list of deployed contracts for both production and testnet.`,
   },
 ];
@@ -72,18 +72,13 @@ export const Guides = [
     to: "./protocol/contracts/",
   },
   {
-    title: "JS Libraries Overview",
-    text: "Learn the differences between the JS libraries available.",
+    title: "Guides",
+    text: "Read guides on creating and interacting with vaults, liquidating yield, and claiming prizes.",
     to: "./protocol/libraries/",
   },
   {
-    title: "JS Client Quick start",
-    text: "Get started on web integrations with the Javascript Client.",
-    to: "./protocol/tutorials/js-client-quickstart/",
-  },
-  {
-    title: "All Tutorials",
-    to: "./protocol/tutorials/",
+    title: "Contract Reference",
+    to: "./protocol/reference/",
   },
 ];
 
@@ -144,10 +139,12 @@ const Card = styled.div`
   border-radius: 20px;
   border: 1px solid var(--ifm-color-emphasis-200);
   /* flex: 1 1 0px; */
+  transition: all 0.2s ease;
 
   &:hover {
     border: 1px solid var(--ifm-color-emphasis-400);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    color: #65f;
   }
 
   @media (max-width: 960px) {
@@ -176,7 +173,7 @@ const CenterCard = styled(Card)`
 
 const ShadowCard = styled(Card)`
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff10;
+  background-color: #00000010;
   backdrop-filter: blur(10px);
   min-height: 200px;
   /* background-color: var(--ifm-color-emphasis-0); */
@@ -263,8 +260,8 @@ const HideMedium = styled.div`
 export default function Home() {
   return (
     <Layout
-      title={`PoolTogether Docs`}
-      description="Technical Documentation For The PoolTogether Protocol"
+      title={`PoolTogether V5 Docs`}
+      description="Technical Documentation For V5 of the PoolTogether Protocol"
     >
       <Container>
         <DocsHeader>
@@ -279,7 +276,7 @@ export default function Home() {
           >
             <h1 style={{ fontWeight: "600" }}>
               {" "}
-              Welcome to the PoolTogether Docs
+              Welcome to the PoolTogether V5 Docs
             </h1>
           </div>
           <Row>
@@ -316,7 +313,7 @@ export default function Home() {
           <div>
             <h2>Getting Started</h2>
             <p>
-              Explore these docs to get started integrating the PoolTogether
+              Get started integrating the PoolTogether V5
               protocol in your dApp, smart contract or project.
             </p>
             <div>

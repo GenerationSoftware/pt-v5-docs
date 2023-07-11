@@ -25,7 +25,7 @@ module.exports = {
       }
     }),
     navbar: {
-      title: "PoolTogether Docs",
+      title: "PoolTogether V5 Docs",
       logo: {
         alt: "PoolTogether",
         src: "img/favicon.png",
