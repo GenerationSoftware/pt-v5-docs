@@ -68,13 +68,13 @@ export const github = [
 export const Guides = [
   {
     title: "Smart Contracts Overview",
-    text: "Learn about the architecture of the PoolTogether protocol smart contracts.",
-    to: "./protocol/contracts/",
+    text: "Read about the architecture of the PoolTogether protocol smart contracts.",
+    to: "./protocol/design/",
   },
   {
     title: "Guides",
-    text: "Read guides on creating and interacting with vaults, liquidating yield, and claiming prizes.",
-    to: "./protocol/libraries/",
+    text: "Follow guides on creating and interacting with vaults, liquidating yield, and claiming prizes.",
+    to: "./protocol/guides/",
   },
   {
     title: "Contract Reference",
@@ -142,7 +142,7 @@ const Card = styled.div`
   transition: all 0.2s ease;
 
   &:hover {
-    border: 1px solid var(--ifm-color-emphasis-400);
+    border: 1px solid var(--ifm-color-emphasis-300);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
     color: #65f;
   }
@@ -267,7 +267,7 @@ export default function Home() {
         <DocsHeader>
           <div
             style={{
-              padding: "4rem 0  ",
+              padding: "3rem 0 1rem 0  ",
               textAlign: "center",
               display: "flex",
               flexDirection: "column",
@@ -314,7 +314,7 @@ export default function Home() {
             <h2>Getting Started</h2>
             <p>
               Get started integrating the PoolTogether V5
-              protocol in your dApp, smart contract or project.
+              protocol in your dapp, smart contract or project.
             </p>
             <div>
               {Guides.map((action) => (
@@ -326,7 +326,7 @@ export default function Home() {
                   <Card key={action.title} style={{ marginBottom: "1rem" }}>
                     <LinkRow>
                       <div style={{ display: "flex", alignItems: "center" }}>
-                        <h3 style={{ marginBottom: "0rem" }}>{action.title}</h3>
+                        <h3 style={{ marginBottom: "0.25rem" }}>{action.title}</h3>
                       </div>
                       <svg
                         style={{ width: "24px", opacity: 0.5 }}
