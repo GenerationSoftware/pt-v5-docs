@@ -66,11 +66,11 @@ export const github = [
 ];
 
 export const Guides = [
-  {
-    title: "Smart Contracts Overview",
-    text: "Read about the architecture of the PoolTogether protocol smart contracts.",
-    to: "./protocol/design/",
-  },
+  // {
+  //   title: "Smart Contracts Overview",
+  //   text: "Read about the architecture of the PoolTogether protocol smart contracts.",
+  //   to: "./protocol/design/",
+  // },
   {
     title: "Guides",
     text: "Follow guides on creating and interacting with vaults, liquidating yield, and claiming prizes.",
@@ -78,6 +78,7 @@ export const Guides = [
   },
   {
     title: "Contract Reference",
+    text: "Deep dive into each protocol contract.",
     to: "./protocol/reference/",
   },
 ];

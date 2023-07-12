@@ -1,7 +1,7 @@
 ---
 id: twab-controller
 title: Twab Controller
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 ## What is it?
